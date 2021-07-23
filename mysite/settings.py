@@ -26,7 +26,8 @@ SECRET_KEY = 'a4o&1y2=l%9@fyjsatfn2xjl(@_xl^(9%#^vhuccqvcauv9rye'
 DEBUG = True
 
 #ALLOWED_HOSTS = [] ,, sustituyendo la linea para que aparezca titulo del sitio y no el localhost
-ALLOWED_HOSTS = ['127.0.0.1', 'pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'https://ardionic.pythonanywhere.com']
+##Se modifica la linea anterior para 'agregando el https://ardionic.pythonanywhere.com' para que se reconozca en la web de producción.
 #Añade también .c9users.io a ALLOWED_HOSTS si estás usando cloud9.
 
 
